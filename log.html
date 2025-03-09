@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="log.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="txtc">
+            <a href="log.html" class="bttn">Cadastro</a>
+            <a href="list.html" class="bttn">Listar</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <form id="formCadastro">
+                <input type="text" name="nome" class="space" id="nome" placeholder="Nome:" required>
+                <input type="text" name="placa" class="space" id="placa" placeholder="Placa:" required>
+                <input type="text" name="modelo" class="space" id="modelo" placeholder="Modelo" required>
+                <input type="text" name="cpf" class="space" id="cpf" placeholder="CPF:" required>                
+                <button type="submit" class="btn">Cadastrar</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="log.js"></script>
+</body>
+</html>
